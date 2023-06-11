@@ -10,14 +10,14 @@ Below image depicts database schema of the case study:
 
 ![Schema](./img/Schema.png)
   
-  In this schema, the "Sales" table represents the fact table, as it contains the transactional data capturing the sales information. The "Menu" and "Members" tables are dimension tables, as they provide additional descriptive information about the products and customers, respectively.
+&nbsp;In this schema, the "Sales" table represents the fact table, as it contains the transactional data capturing the sales information. The "Menu" and "Members" tables are dimension tables, as they provide additional descriptive information about the products and customers, respectively.
 * The sales table captures all customer_id level purchases with an corresponding order_date and product_id
 information for when and what menu items were ordered.
 * The menu table maps the product_id to the actual product_name and price of each menu item.
 * The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner
 loyalty program.  
 
-Case study qusetions:
+Case study questions:
 1. What is the total amount each customer spent at the restaurant?
 1. How many days has each customer visited the restaurant?
 1. What was the first item from the menu purchased by each customer?
